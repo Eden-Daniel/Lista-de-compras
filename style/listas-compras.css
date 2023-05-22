@@ -1,0 +1,55 @@
+.listas-compras {
+    background-color: #e2e2e2;
+    width: 60%;
+    margin: 16px auto;    
+}
+
+.listas-compras section {
+    padding: 2px 6px;
+}
+
+.listas-compras h2 {
+    font-family: 'Mansalva', cursive;
+    font-size: 2em;
+    font-weight: 700;
+    color: #485fc7;
+    margin: 10px 0;
+}
+
+.listas-compras ul {
+    border-bottom: dotted 4px #4574E3;
+    margin: 0;
+    padding: 2px;
+}
+
+.listas-compras li {
+    display: flex;
+    justify-content: space-between!important; 
+    align-items: center;  
+    
+}
+
+/* BOTÕES DE DELETAR E EDITAR */
+
+.itens-na-lista {
+    display: flex;
+    gap: 9px;
+    
+}
+
+.clicavel {
+    cursor: pointer;
+}
+
+.item-lista {
+    font-size: 25px;
+    border: none;
+    background: none;
+    color: #3a3a3a;
+   }
+
+.item-comprado {
+    font-size: 25px;
+    text-decoration: line-through;
+    color: #7a7a7a;
+}

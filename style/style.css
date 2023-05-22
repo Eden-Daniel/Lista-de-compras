@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&family=Montserrat:ital@0;1&display=swap');
+
+@import url('./form.css');
+@import url('./listas-compras.css');
+
+
+body {
+    background: linear-gradient(177deg, #4574E3 2%, #154580 80%);
+    background-repeat: no-repeat;
+    height: 100vh;   
+}
+
+main {
+    display: flex;
+    flex-direction: column;  
+    padding: 50px 150px;
+}
+
+
+.texto-footer {
+    font-family: 'Mansalva', cursive;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
